@@ -1,4 +1,4 @@
-SET GOPATH=C:\Users\BCoskun\krakend-ce\go
+SET GOPATH=%CD%\go
 go get .
 attrib -R C:\Users\BCoskun\krakend-ce\go\pkg\mod\github.com\devopsfaith\krakend-gologging@v0.0.0-20190131142345-f3f256584ecc\log.go
 copy C:\Users\BCoskun\krakend-ce\winbuild\deopsfaith_krakend-gologging_log.go C:\Users\BCoskun\krakend-ce\go\pkg\mod\github.com\devopsfaith\krakend-gologging@v0.0.0-20190131142345-f3f256584ecc\log.go
